@@ -44,7 +44,7 @@ def turn(board)
   index = input_to_index(input)
     if position_taken?(board, index) == false
       move(board, index)
-      return display_board(board)
+      display_board(board)
     else turn(board)
     end
 end
